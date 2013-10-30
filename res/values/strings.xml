@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yamba</string>
+    <string name="titleYamba">YambaTitle</string>
+    <string name="titleStatus">发送xx消息</string>
+    <string name="titlePrefs">设置</string>
+    <string name="titleUsername">用户名</string>
+    <string name="titlePassword">密码</string>
+    <string name="titleApiRoot">API Root</string>
+    <string name="titleServiceStart">开始服务</string>
+    <string name="titleServiceStop">结束服务</string>
+    <string name="titleTimeline">Timeline</string>
+    <string name="titlePurge">清除设置</string>
+    <string name="titleRefresh">刷新</string>
+    <string name="summaryUsername">请输入用户名</string>
+    <string name="summaryPassword">请输入密码</string>
+    <string name="summaryApiRoot">请输入服务的API地址</string>
+    <string name="hintText">请输入140个字符</string>
+    <string name="textCount">140</string>
+    <string name="buttonUpdate">发送</string>
+    <string name="action_settings">设置</string>
+    <string name="msgSetupPrefs">打开设置</string>
+    <string name="send_timeline_notifications_permission_label">Timeline通知权限</string>
+    <string name="send_timeline_notifications_permission_description">可以发送Timeline通知给Yamba应用</string>
+    <string name="receive_timeline_notifications_permission_label">接收Timeline通知权限</string>
+    <string name="receive_timeline_notifications_permission_description">可以接收应用内部发来的Timeline更新</string>
+    <string name="msgLastTimelineUpdate">上次更新时间</string>
+    <string name="summaryProvider">提供摘要</string>
+    <string name="titleProvider">提供标题</string>
+    <string name="titleUpdaterInterval">刷新间隔</string>
+    <string name="summaryUpdaterInterval">多长时间启动一次服务</string>
+    <string name="msgNotificationTitle">您有新的Yamba消息</string>
+    <string name="msgNotificationMessage">Blablablabla</string>
+    
+    
+
+    <string-array name="providers">
+        <item>None, please</item>
+        <item>GPS via satellites!</item>
+        <item>Mobile Network will do</item>
+    </string-array>
+    <string-array name="providerValues">
+        <item>NONE</item>
+        <item>gps</item>
+        <item>network</item>
+    </string-array>
+    <string-array name="interval">
+        <item>Never</item>
+        <item>Fifteen minutes</item>
+        <item>Half hour</item>
+        <item>An hour</item>
+        <item>Half day</item>
+        <item>Day</item>
+    </string-array>
+    <string-array name="intervalValues">
+        <item>0</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+
+</resources>
